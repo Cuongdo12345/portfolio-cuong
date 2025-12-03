@@ -146,6 +146,7 @@ const Navbar = () => {
           <NavLink href="#Experience">Kinh nghiệm</NavLink>
           <NavLink href="#Projects">Dự án</NavLink>
           <NavLink href="https://drive.google.com/drive/folders/17zhTAQBiQrBM5ifqMBulvYVSNv6js--e?usp=sharing">Video Edit</NavLink>
+          <NavLink href="#ListImage">Ảnh</NavLink>
         </NavItems>
 
         {isOpen && (
@@ -164,6 +165,9 @@ const Navbar = () => {
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="https://drive.google.com/drive/folders/17zhTAQBiQrBM5ifqMBulvYVSNv6js--e?usp=sharing">
               Video Edit
+            </NavLink>
+             <NavLink onClick={() => setIsOpen(!isOpen)} href="#ListImage">
+              Ảnh
             </NavLink>
             <GithubButton
               href={Bio.github}

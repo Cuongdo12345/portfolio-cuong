@@ -10,6 +10,7 @@ import StartCanvas from "./components/canvas/Stars";
 import Projects from "./components/sections/Projects";
 // import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
+import ListImage from "./components/sections/ListImage";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -51,6 +52,7 @@ function App() {
             <Wrapper>
               {/* <Education /> */}
               {/* <Contact /> */}
+              {<ListImage/>}
             </Wrapper>
             <Footer />
           </div>
