@@ -145,8 +145,9 @@ const Navbar = () => {
           <NavLink href="#Skills">Kỹ năng</NavLink>
           <NavLink href="#Experience">Kinh nghiệm</NavLink>
           <NavLink href="#Projects">Dự án</NavLink>
-          <NavLink href="https://drive.google.com/drive/folders/17zhTAQBiQrBM5ifqMBulvYVSNv6js--e?usp=sharing">Video Edit</NavLink>
-          <NavLink href="#ListImage">Ảnh</NavLink>
+          <NavLink href="https://drive.google.com/drive/folders/17zhTAQBiQrBM5ifqMBulvYVSNv6js--e?usp=sharing">Âm nhạc</NavLink>
+          {/* <NavLink href="#ListImage">Ảnh</NavLink> */}
+          <NavLink href="#SliderImg">Chill</NavLink>
         </NavItems>
 
         {isOpen && (
@@ -164,10 +165,13 @@ const Navbar = () => {
               Dự án
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="https://drive.google.com/drive/folders/17zhTAQBiQrBM5ifqMBulvYVSNv6js--e?usp=sharing">
-              Video Edit
+              Âm nhạc
             </NavLink>
-             <NavLink onClick={() => setIsOpen(!isOpen)} href="#ListImage">
+             {/* <NavLink onClick={() => setIsOpen(!isOpen)} href="#ListImage">
               Ảnh
+            </NavLink> */}
+             <NavLink onClick={() => setIsOpen(!isOpen)} href="#SliderImg">
+              Chill
             </NavLink>
             <GithubButton
               href={Bio.github}
