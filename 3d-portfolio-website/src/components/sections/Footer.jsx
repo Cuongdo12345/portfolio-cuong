@@ -91,7 +91,8 @@ const Footer = () => {
           <NavLink href="#Experience">Kinh nghiệm</NavLink>
           <NavLink href="#Projects">Dự án</NavLink>
           <NavLink href="https://drive.google.com/drive/folders/17zhTAQBiQrBM5ifqMBulvYVSNv6js--e?usp=sharing">Âm nhạc</NavLink>
-           <NavLink href="#SliderImg">Chill</NavLink>
+          <NavLink href="#SliderImg">Chill</NavLink>
+          {/* <NavLink href="#SliderVideo">Video</NavLink> */}
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display">

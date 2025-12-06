@@ -67,15 +67,15 @@ const SliderImg = () => {
         modules={[Pagination,EffectCoverflow]}
         spaceBetween={30}
         slidesPerView={1.5}
-        // navigation
-        pagination={{ clickable: true}}
+        navigation
+        // pagination={{ clickable: true}}
         effect="coverflow"
         coverflowEffect={{
         rotate: 0,
         stretch: 0,
         depth: 180,
         modifier: 1,
-        slideShadows: false,
+        slideShadows: true,
         }}
         breakpoints={{
         640: { slidesPerView: 1.1 },

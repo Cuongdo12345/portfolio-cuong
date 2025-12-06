@@ -70,115 +70,6 @@ export const skills = [
       },
     ],
   },
-  // {
-  //   title: "DevOps",
-  //   skills: [
-  //     {
-  //       name: "AWS",
-  //       image:
-  //         "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-  //     },
-  //     {
-  //       name: "Google Cloud",
-  //       image:
-  //         "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-  //     },
-  //     {
-  //       name: "Docker",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-  //     },
-  //     {
-  //       name: "Jenkins",
-  //       image:
-  //         "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-  //     },
-  //     {
-  //       name: "Nginx",
-  //       image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-  //     },
-  //     {
-  //       name: "Grafana",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-  //     },
-  //     {
-  //       name: "Kubernetes",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-  //     },
-  //     {
-  //       name: "Prometheus",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Android",
-  //   skills: [
-  //     {
-  //       name: "Java",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-  //     },
-  //     {
-  //       name: "Kotlin",
-  //       image:
-  //         "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-  //     },
-  //     {
-  //       name: "Jetpack Compose",
-  //       image:
-  //         "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
-  //     },
-  //     {
-  //       name: "XML",
-  //       image:
-  //         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-  //     },
-  //     {
-  //       name: "Android Studio",
-  //       image:
-  //         "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Machine Learning",
-  //   skills: [
-  //     {
-  //       name: "Python",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-  //     },
-  //     {
-  //       name: "Tenserflow",
-  //       image:
-  //         "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
-  //     },
-  //     {
-  //       name: "Keras",
-  //       image:
-  //         "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
-  //     },
-  //     {
-  //       name: "Jupyter",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
-  //     },
-  //     {
-  //       name: "Google Colab",
-  //       image:
-  //         "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
-  //     },
-  //     {
-  //       name: "Sk Learn Kit",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
-  //     },
-  //   ],
-  // },
   {
     title: "Others",
     skills: [
@@ -296,83 +187,9 @@ export const experiences = [
   },
 ];
 
-// export const education = [
-//   {
-//     id: 0,
-//     //img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-//     img:"https://lh4.googleusercontent.com/d/18BkquGIuirW5QrgH5cCp76C3kBlC97cR",
-//     school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-//     date: "Oct 2021 - Sep 2025",
-//     grade: "8.41 CGPA",
-//     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-//     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
-//   },
-//   {
-//     id: 1,
-//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-//     school: "Methodist School, Dankuni",
-//     date: "Apr 2019 - Apr 2025",
-//     grade: "88.2%",
-//     desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-//     degree: "ISC(XII), Science with Computer",
-//   },
-//   {
-//     id: 2,
-//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-//     school: "Methodist School, Dankuni",
-//     date: "Apr 2017 - Apr 2019",
-//     grade: "92.3%",
-//     desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-//     degree: "ICSC(X), Science with Computer",
-//   },
-// ];
 
 export const projects = [
-  // {
-  //   id: 11,
-  //   title: "DecisionHub",
-  //   date: "Jan 2024 - Dec 2023",
-  //   description:
-  //     "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
-  //   image:
-  //     "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
-  //   tags: [
-  //     "React Js",
-  //     "PostgressSQL",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //     "React Flow",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/DecisionHub",
-  //   webapp: "https://decisionhub.netlify.app/",
-  // },
-  // {
-  //   id: 9,
-  //   title: "Trackify",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-  //   tags: [
-  //     "Docker",
-  //     "AWS",
-  //     "DuckDNS",
-  //     "Eslint",
-  //     "Husky",
-  //     "CI/CD",
-  //     "React Js",
-  //     "MongoDb",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Trackify",
-  //   webapp: "https://trackify-management.netlify.app/",
-  // },
+  
   {
     id: 0,
     title: "Home-Service",
@@ -477,19 +294,6 @@ export const projects = [
       // },
     ],
   },
-  // {
-  //   id: 10,
-  //   title: "Job Finding App",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-  //   tags: ["React Native", "JavaScript", "Axios"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Job-finder-App",
-  //   webapp: "https://github.com/rishavchanda/Job-finder-App",
-  // },
   {
     id: 4,
     title: "Smart-Meeting",
@@ -540,46 +344,73 @@ export const projects = [
       // },
     ],
   },
-  // {
-  //   id: 6,
-  //   title: "Breaking Bad",
-  //   date: "Jun 2021",
-  //   description:
-  //     "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-  //   image:
-  //     "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-  //   tags: ["React Js", "API", "Axios", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Breaking-Bad",
-  //   webapp: "https://breaking-bad-webapp.netlify.app",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Quiz App",
-  //   date: "Dec 2020 - Jan 2021",
-  //   description:
-  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-  //   image:
-  //     "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-  //   tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Quiz-Earn",
-  //   webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Face Recognition",
-  //   date: "Jan 2021",
-  //   description:
-  //     "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-  //   image:
-  //     "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  // },
 ];
+
+
+
+export const items = [
+{ img: "https://lh4.googleusercontent.com/d/1I2njLl8WGyAcjeJXmqSUHc3225VzBSma" },
+{ img: "https://lh4.googleusercontent.com/d/1ERaMZSGcC9vIwbgJRufYMmwjYROjCj7A"},
+{ img: "https://lh4.googleusercontent.com/d/1T42oGPXj5kD3ouP-FrfCTA6_zqc3urjI" },
+{ img: "https://lh4.googleusercontent.com/d/1RcBKXcwV2EYDAxUdQJOpwTjReJjzXvu-" },
+{ img: "https://lh4.googleusercontent.com/d/1Mo2m0Uo48kMGottRa1nwD7zP8j9xlOFY" },
+{ img: "https://lh4.googleusercontent.com/d/1fbdgBxJ_G3y4Fx4LfeRr6H4fQbs_ikHy" },
+{ img: "https://lh4.googleusercontent.com/d/1MqHiVO9ga5wn5CzDmdVhAZd2lEjM72Uo" },
+{ img: "https://lh4.googleusercontent.com/d/18-LAEiJ5l0AKC50fkvr5VlbDD_kXDXCd" },
+{ img: "https://lh4.googleusercontent.com/d/1nnzZfX5q5FFaeUJPSfnBDBpX67hhiHHg" },
+{ img: "https://lh4.googleusercontent.com/d/14cirZ-PZepvNcYXCkGoJvFljgUUjFeKa" },
+{ img: "https://lh4.googleusercontent.com/d/1wdbTRP83fegoXY3so-o1iLBw3uUEdU07" },
+{ img: "https://lh4.googleusercontent.com/d/1VdpueCk6bTy-YsoFUjuTSBSq6bHcVGtJ" },
+{ img: "https://lh4.googleusercontent.com/d/1hDyVNQv8s84mlaK0oaHdMwfSADxSLNaJ" },
+{ img: "https://lh4.googleusercontent.com/d/1kCGlbkOTtvDeEvrn6wc1foBjXKrdd9Q4" },
+{ img: "https://lh4.googleusercontent.com/d/1FawL7Y6h6yJnc-NLCcrsZS3uah7B-UCR" },
+{ img: "https://lh4.googleusercontent.com/d/1bM7tASwqRqbboyyeh6nN6QwFmQR2iYJo" },
+{ img: "https://lh4.googleusercontent.com/d/1fbdgBxJ_G3y4Fx4LfeRr6H4fQbs_ikHy" },
+{ img: "https://lh4.googleusercontent.com/d/195j7XStY-R1r6KbOwAG3aC1du1ALZT6L" },
+{ img: "https://lh4.googleusercontent.com/d/1hoqdRvI5gDu0BMJtfkxifeq00URXHVA0" },
+{ img: "https://lh4.googleusercontent.com/d/1BL9MVkxMvDkslPpZLASUJB5BTEAlnXQg" },
+];
+
+
+// export const videos = [
+// {
+//   id: 1,
+//   src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-10_tlh0hn.mp4"
+// },
+// { id: 2,src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-10_tlh0hn.mp4"},
+// { id: 3, src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-10_tlh0hn.mp4"}
+//   ];
+
+// export const education = [
+//   {
+//     id: 0,
+//     //img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+//     img:"https://lh4.googleusercontent.com/d/18BkquGIuirW5QrgH5cCp76C3kBlC97cR",
+//     school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
+//     date: "Oct 2021 - Sep 2025",
+//     grade: "8.41 CGPA",
+//     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+//     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+//   },
+//   {
+//     id: 1,
+//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+//     school: "Methodist School, Dankuni",
+//     date: "Apr 2019 - Apr 2025",
+//     grade: "88.2%",
+//     desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
+//     degree: "ISC(XII), Science with Computer",
+//   },
+//   {
+//     id: 2,
+//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+//     school: "Methodist School, Dankuni",
+//     date: "Apr 2017 - Apr 2019",
+//     grade: "92.3%",
+//     desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
+//     degree: "ICSC(X), Science with Computer",
+//   },
+// ];
 
 // export const itemData = [
 //  {
@@ -673,26 +504,3 @@ export const projects = [
 //     cols: 2,
 //   },
 // ];
-
-export const items = [
-{ img: "https://lh4.googleusercontent.com/d/1I2njLl8WGyAcjeJXmqSUHc3225VzBSma" },
-{ img: "https://lh4.googleusercontent.com/d/1ERaMZSGcC9vIwbgJRufYMmwjYROjCj7A"},
-{ img: "https://lh4.googleusercontent.com/d/1T42oGPXj5kD3ouP-FrfCTA6_zqc3urjI" },
-{ img: "https://lh4.googleusercontent.com/d/1RcBKXcwV2EYDAxUdQJOpwTjReJjzXvu-" },
-{ img: "https://lh4.googleusercontent.com/d/1Mo2m0Uo48kMGottRa1nwD7zP8j9xlOFY" },
-{ img: "https://lh4.googleusercontent.com/d/1fbdgBxJ_G3y4Fx4LfeRr6H4fQbs_ikHy" },
-{ img: "https://lh4.googleusercontent.com/d/1MqHiVO9ga5wn5CzDmdVhAZd2lEjM72Uo" },
-{ img: "https://lh4.googleusercontent.com/d/18-LAEiJ5l0AKC50fkvr5VlbDD_kXDXCd" },
-{ img: "https://lh4.googleusercontent.com/d/1nnzZfX5q5FFaeUJPSfnBDBpX67hhiHHg" },
-{ img: "https://lh4.googleusercontent.com/d/14cirZ-PZepvNcYXCkGoJvFljgUUjFeKa" },
-{ img: "https://lh4.googleusercontent.com/d/1wdbTRP83fegoXY3so-o1iLBw3uUEdU07" },
-{ img: "https://lh4.googleusercontent.com/d/1VdpueCk6bTy-YsoFUjuTSBSq6bHcVGtJ" },
-{ img: "https://lh4.googleusercontent.com/d/1hDyVNQv8s84mlaK0oaHdMwfSADxSLNaJ" },
-{ img: "https://lh4.googleusercontent.com/d/1kCGlbkOTtvDeEvrn6wc1foBjXKrdd9Q4" },
-{ img: "https://lh4.googleusercontent.com/d/1FawL7Y6h6yJnc-NLCcrsZS3uah7B-UCR" },
-{ img: "https://lh4.googleusercontent.com/d/1bM7tASwqRqbboyyeh6nN6QwFmQR2iYJo" },
-{ img: "https://lh4.googleusercontent.com/d/1fbdgBxJ_G3y4Fx4LfeRr6H4fQbs_ikHy" },
-{ img: "https://lh4.googleusercontent.com/d/195j7XStY-R1r6KbOwAG3aC1du1ALZT6L" },
-{ img: "https://lh4.googleusercontent.com/d/1hoqdRvI5gDu0BMJtfkxifeq00URXHVA0" },
-{ img: "https://lh4.googleusercontent.com/d/1BL9MVkxMvDkslPpZLASUJB5BTEAlnXQg" },
-];

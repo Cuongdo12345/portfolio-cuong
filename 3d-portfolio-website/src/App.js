@@ -5,13 +5,14 @@ import { BrowserRouter } from "react-router-dom";
 import Hero from "./components/sections/Hero";
 import Skills from "./components/sections/Skills";
 import Experience from "./components/sections/Experience";
-// import Education from "./components/sections/Education";
 import StartCanvas from "./components/canvas/Stars";
 import Projects from "./components/sections/Projects";
-// import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
-// import ListImage from "./components/sections/ListImage";
 import SliderImg from "./components/sections/SliderImg";
+// import Education from "./components/sections/Education";
+// import Contact from "./components/sections/Contact";
+// import ListImage from "./components/sections/ListImage";
+// import SliderVideo from "./components/sections/SliderVideo";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -51,10 +52,8 @@ function App() {
             </Wrapper>
             <Projects />
             <Wrapper>
-              {/* <Education /> */}
-              {/* <Contact /> */}
-              {/* {<ListImage/>} */}
                {<SliderImg/>}
+               {/* {<SliderVideo/>} */}
             </Wrapper>
 
             <Footer />

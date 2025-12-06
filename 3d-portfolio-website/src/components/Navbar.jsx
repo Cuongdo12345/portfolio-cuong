@@ -148,6 +148,7 @@ const Navbar = () => {
           <NavLink href="https://drive.google.com/drive/folders/17zhTAQBiQrBM5ifqMBulvYVSNv6js--e?usp=sharing">Âm nhạc</NavLink>
           {/* <NavLink href="#ListImage">Ảnh</NavLink> */}
           <NavLink href="#SliderImg">Chill</NavLink>
+          {/* <NavLink href="#SliderVideo">Video</NavLink> */}
         </NavItems>
 
         {isOpen && (
@@ -173,6 +174,9 @@ const Navbar = () => {
              <NavLink onClick={() => setIsOpen(!isOpen)} href="#SliderImg">
               Chill
             </NavLink>
+              {/* <NavLink onClick={() => setIsOpen(!isOpen)} href="#SliderVideo">
+              Video
+            </NavLink> */}
             <GithubButton
               href={Bio.github}
               target="_Blank"
