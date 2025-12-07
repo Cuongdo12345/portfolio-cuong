@@ -56,7 +56,6 @@ function App() {
             <Wrapper>
                {<SliderImg/>}
             </Wrapper>
-
             <Footer />
           </div>
         </Body>

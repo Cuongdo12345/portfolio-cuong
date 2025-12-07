@@ -3,9 +3,7 @@ import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import {
   FacebookRounded,
-  Instagram,
-  // LinkedIn,
-  // Twitter,
+  // Instagram,
 } from "@mui/icons-material";
 
 const FooterContainer = styled.div`
@@ -104,11 +102,11 @@ const Footer = () => {
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedIn />
           </SocialMediaIcon> */}
-          <SocialMediaIcon href={Bio.insta} target="display">
+          {/* <SocialMediaIcon href={Bio.insta} target="display">
             <Instagram />
-          </SocialMediaIcon>
+          </SocialMediaIcon> */}
         </SocialMediaIcons>
-        <Copyright>&copy; 2025 Đỗ Mạnh Cường. All rights reserved.</Copyright>
+        <Copyright>&copy; 2025 Đỗ Cường. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
