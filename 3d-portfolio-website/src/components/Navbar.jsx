@@ -178,21 +178,21 @@ const Navbar = () => {
               Video
             </NavLink> */}
             <GithubButton
-              href={Bio.github}
+              href={Bio.facebook}
               target="_Blank"
               style={{
                 background: theme.primary,
                 color: theme.text_primary,
               }}
             >
-              Github
+              Facebook
             </GithubButton>
           </MobileMenu>
         )}
 
         <ButtonContainer>
-          <GithubButton href={Bio.github} target="_Blank">
-            Github
+          <GithubButton href={Bio.facebook} target="_Blank">
+            Facebook
           </GithubButton>
         </ButtonContainer>
       </NavbarContainer>

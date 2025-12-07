@@ -74,7 +74,7 @@ const Music = () => {
 
       <audio
         ref={audioRef}
-        src="/music/Em Không Khóc - buitruonglinh ft vuphungtien.mp3"
+        src="/music/Em Không Khóc.mp3"
         preload="auto"
         loop
       />
