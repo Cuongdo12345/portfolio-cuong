@@ -190,33 +190,33 @@ export const experiences = [
 
 export const projects = [
   
-  {
-    id: 0,
-    title: "Home-Service",
-    date: "2023",
-    description:
-      "Một App phần mềm được gọi là giúp việc. App này giúp cho người làm và người cần thuê giúp việc dễ dàng hơn trong việc tìm kiếm người phù hợp cho gia đình mình và từ đó giúp cho người tìm việc tiếp cận được công việc nhanh hơn ",
-    image:
-      "https://lh4.googleusercontent.com/d/1TeZGtvfq_ujZYZQ-yWBMGyLnPp72d2Fi",
-    tags: ["MongoDb", "Node Js", "Express Js","Flutter","Typescript"],
-    category: "web app",
-    github: "https://github.com/Manhcuong12345/HomeService",
-    // webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Mạnh Cường",
-        img: "https://lh4.googleusercontent.com/d/1PzAvu8uy5021XYPnmOqcU3pKM4Y-I0Kb",
-        // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        // github: "https://github.com/rishavchanda/",
-      },
+  // {
+  //   id: 0,
+  //   title: "Home-Service",
+  //   date: "2023",
+  //   description:
+  //     "Một App phần mềm được gọi là giúp việc. App này giúp cho người làm và người cần thuê giúp việc dễ dàng hơn trong việc tìm kiếm người phù hợp cho gia đình mình và từ đó giúp cho người tìm việc tiếp cận được công việc nhanh hơn ",
+  //   image:
+  //     "https://lh4.googleusercontent.com/d/1TeZGtvfq_ujZYZQ-yWBMGyLnPp72d2Fi",
+  //   tags: ["MongoDb", "Node Js", "Express Js","Flutter","Typescript"],
+  //   category: "web app",
+  //   github: "https://github.com/Manhcuong12345/HomeService",
+  //   // webapp: "https://podstream.netlify.app/",
+  //   member: [
+  //     {
+  //       name: "Mạnh Cường",
+  //       img: "https://lh4.googleusercontent.com/d/1PzAvu8uy5021XYPnmOqcU3pKM4Y-I0Kb",
+  //       // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+  //       // github: "https://github.com/rishavchanda/",
+  //     },
       // {
       //   name: "Upasana Chaudhuri",
       //   img: "https://avatars.githubusercontent.com/u/100614635?v=4",
       //   linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
       //   github: "https://github.com/upasana0710",
       // },
-    ],
-  },
+  //   ],
+  // },
   {
     id: 1,
     title: "Quản lý sức khỏe quân nhân",
@@ -294,56 +294,56 @@ export const projects = [
       // },
     ],
   },
-  {
-    id: 4,
-    title: "Smart-Meeting",
-    date: "2024",
-    description:
-      "Ứng dụng App dùng để họp trực tuyến một nhanh chóng và tiện lợi. Ứng dụng này giúp người dùng có thể tạo phòng họp, mời người khác tham gia và chia sẻ",
-    image:
-      "https://lh4.googleusercontent.com/d/1hVlnT2E3jqUzZ5TFFonCYdc2jU2OouMg",
-    tags: ["Node JS", "Firebase", "MongoDB", "Express JS"],
-    category: "web app",
-    github: "https://github.com/Manhcuong12345/Project_Smart-meeting",
-    //webapp: "https://whatsapp-clone-rishav.web.app",
-    member: [
-      {
-        name: "Mạnh Cường",
-        img: "https://lh3.googleusercontent.com/d/1PzAvu8uy5021XYPnmOqcU3pKM4Y-I0Kb",
-      },
+  // {
+  //   id: 4,
+  //   title: "Smart-Meeting",
+  //   date: "2024",
+  //   description:
+  //     "Ứng dụng App dùng để họp trực tuyến một nhanh chóng và tiện lợi. Ứng dụng này giúp người dùng có thể tạo phòng họp, mời người khác tham gia và chia sẻ",
+  //   image:
+  //     "https://lh4.googleusercontent.com/d/1hVlnT2E3jqUzZ5TFFonCYdc2jU2OouMg",
+  //   tags: ["Node JS", "Firebase", "MongoDB", "Express JS"],
+  //   category: "web app",
+  //   github: "https://github.com/Manhcuong12345/Project_Smart-meeting",
+  //   //webapp: "https://whatsapp-clone-rishav.web.app",
+  //   member: [
+  //     {
+  //       name: "Mạnh Cường",
+  //       img: "https://lh3.googleusercontent.com/d/1PzAvu8uy5021XYPnmOqcU3pKM4Y-I0Kb",
+  //     },
       // {
       //   name: "Upasana Chaudhuri",
       //   img: "https://avatars.githubusercontent.com/u/100614635?v=4",
       //   linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
       //   github: "https://github.com/upasana0710",
       // },
-    ],
-  },
-  {
-    id: 5,
-    title: "Shop-Books",
-    date: "2025",
-    description:
-      "Web app bán sách trực tuyến. Ứng dụng này giúp người dùng có thể tìm kiếm, mua sách một cách nhanh chóng và tiện lợi.",
-    image:
-      "https://lh4.googleusercontent.com/d/17z5hxbrqMVrJVXRWNm8qZyk2Z9IYVUVx",
-    tags: ["React Js", "Node JS", "MongoDB", "Express JS"],
-    category: "web app",
-    github: "https://github.com/Manhcuong12345/SHop_bookss",
-    //webapp: "https://rishav-react-todo.netlify.app/",
-    member: [
-      {
-        name: "Mạnh Cường",
-        img: "https://lh3.googleusercontent.com/d/1PzAvu8uy5021XYPnmOqcU3pKM4Y-I0Kb",
-      },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   title: "Portfolio",
+  //   date: "2025",
+  //   description:
+  //     "Đây là dự án website portfolio cá nhân của tôi, nơi tôi tổng hợp và giới thiệu về bản thân, kỹ năng, kinh nghiệm làm việc và các dự án đã thực hiện.",
+  //   image:
+  //     "https://lh4.googleusercontent.com/d/17z5hxbrqMVrJVXRWNm8qZyk2Z9IYVUVx",
+  //   tags: ["React Js", "Node JS", "MongoDB", "Express JS"],
+  //   category: "web app",
+  //   github: "https://github.com/Cuongdo12345/portfolio-cuong.git",
+  //   //webapp: "https://rishav-react-todo.netlify.app/",
+  //   member: [
+  //     {
+  //       name: "Mạnh Cường",
+  //       img: "https://lh3.googleusercontent.com/d/1PzAvu8uy5021XYPnmOqcU3pKM4Y-I0Kb",
+  //     },
       // {
       //   name: "Upasana Chaudhuri",
       //   img: "https://avatars.githubusercontent.com/u/100614635?v=4",
       //   linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
       //   github: "https://github.com/upasana0710",
       // },
-    ],
-  },
+    // ],
+  // },
 ];
 
 
