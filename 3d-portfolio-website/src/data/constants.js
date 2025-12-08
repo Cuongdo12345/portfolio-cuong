@@ -3,7 +3,7 @@
 export const Bio = {
   name: "Đỗ Mạnh Cường",
   roles: [
-    "Hiện tại là Chuyên viên CNTT","Làm việc tại bệnh viện Y học cổ truyền Khánh Hòa",
+    "Hiện tại là Chuyên viên CNTT","Làm việc tại bệnh viện Y học cổ truyền và Phục hồi chức năng Khánh Hòa",
   ],
 
   description:
