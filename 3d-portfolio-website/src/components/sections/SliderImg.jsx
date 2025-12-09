@@ -102,7 +102,7 @@ const SliderImg = () => {
                 src={item.img}
                 alt={item.title}
                 style={{
-                  width: "100%",
+                  width: "280px",
                   height: "250px",
                   objectFit: "cover",
                   borderRadius: "15px"

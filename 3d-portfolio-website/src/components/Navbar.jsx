@@ -4,6 +4,7 @@ import styled, { useTheme } from "styled-components";
 import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
 
+
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.bg};
   height: 80px;
@@ -174,9 +175,7 @@ const Navbar = () => {
              <NavLink onClick={() => setIsOpen(!isOpen)} href="#SliderImg">
               Chill
             </NavLink>
-              {/* <NavLink onClick={() => setIsOpen(!isOpen)} href="#SliderVideo">
-              Video
-            </NavLink> */}
+           
             <GithubButton
               href={Bio.facebook}
               target="_Blank"
