@@ -372,6 +372,15 @@ export const items = [
 ];
 
 
+// Danh sách nhạc
+// ============================
+export const songs = [
+  // { title: "Giá Như Cô Ấy Chưa Xuất Hiện", src: "/music/Giá Như Cô Ấy Chưa Xuất Hiện.mp3" },
+  { title: "Em Không Khóc", src: "/music/Em Không Khóc.mp3" },
+  { title: "Không buông", src: "/music/Không buông.mp3" },
+  { title: "Có Đôi Điều", src: "/music/Có Đôi Điều.mp3" },
+  { title: "Ngày Này Năm Ấy", src: "/music/Ngày Này Năm Ấy.mp3" },
+];
 // export const videos = [
 // {
 //   id: 1,
