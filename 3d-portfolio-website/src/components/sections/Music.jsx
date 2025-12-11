@@ -8,16 +8,13 @@ const Container = styled.div`
   justify-content: center;
   width: 100%;
   position: relative;
-  z-index: 1;
+  z-index: 3;
 `;
 
 const Wrapper = styled.div`
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   width: 100%;
   max-width: 1100px;
+  position: relative;
 `;
 
 /* --- PLAYER BOX --- */
@@ -29,164 +26,174 @@ const PlayerBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 14px;
+  gap: 18px;
 
-  width: 200px;
-  padding: 20px;
+  width: 210px;
+  padding: 22px;
   border-radius: 22px;
 
-  background: rgba(18, 18, 18, 0.78);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(18, 18, 18, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(18px);
 
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.55);
+  /* Glow đẹp */
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.55),
+    0 0 12px rgba(30, 215, 96, 0.25);
+  
+  animation: fadeIn 0.5s ease;
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
 `;
 
 /* --- PLAY BUTTON --- */
 const SpotifyButton = styled.button`
-  width: 100px;
-  height: 30px;
+  width: 120px;
+  height: 36px;
 
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 6px;
 
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.3px;
 
-  color: #000;
-
+  color: black;
   background: #1ed760;
   border: none;
   border-radius: 999px;
 
   cursor: pointer;
-  transition: 0.22s ease;
+  transition: 0.25s ease;
 
   box-shadow: 0 4px 14px rgba(30, 215, 96, 0.45);
 
   &:hover {
     background: #1fdf64;
-    transform: scale(1.06);
+    transform: translateY(-2px) scale(1.07);
+    box-shadow: 0 0 20px rgba(30, 215, 96, 0.5);
   }
 
   &:active {
-    transform: scale(0.95);
+    transform: scale(0.92);
   }
 `;
 
 /* --- NOW PLAYING --- */
 const NowPlaying = styled.div`
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 500;
-  color: #a9a9a9;
+  color: #bdbdbd;
   text-align: center;
+  opacity: 0.85;
 `;
 
 /* --- WAVE ANIMATION --- */
 const Wave = styled.div`
   display: flex;
   align-items: end;
-  gap: 4px;
-  height: 16px;
+  gap: 5px;
+  height: 18px;
 `;
 
 const Bar = styled.div`
-  width: 3px;
+  width: 4px;
   background: #1ed760;
-  border-radius: 8px;
+  border-radius: 999px;
   animation: bounce 0.6s ease infinite;
 
-  &:nth-child(1) {
-    height: 5px;
-    animation-delay: 0s;
-  }
-  &:nth-child(2) {
-    height: 11px;
-    animation-delay: 0.12s;
-  }
-  &:nth-child(3) {
-    height: 7px;
-    animation-delay: 0.24s;
-  }
+  &:nth-child(1) { height: 5px; animation-delay: 0s; }
+  &:nth-child(2) { height: 12px; animation-delay: 0.15s; }
+  &:nth-child(3) { height: 8px; animation-delay: 0.3s; }
 
   @keyframes bounce {
-    0% {
-      transform: scaleY(0.4);
-    }
-    50% {
-      transform: scaleY(1);
-    }
-    100% {
-      transform: scaleY(0.4);
-    }
+    0% { transform: scaleY(0.4); }
+    50% { transform: scaleY(1); }
+    100% { transform: scaleY(0.4); }
   }
 `;
 
-
+/* --- DROPDOWN WRAPPER --- */
 const Dropdown = styled.div`
   width: 100%;
   position: relative;
 `;
 
+/* Header của dropdown */
 const DropdownHeader = styled.div`
   padding: 10px 12px;
   background: #0f0f0f;
-  color: #fff;
+  color: white;
+
   font-size: 10px;
   font-weight: 600;
-  border: 1px solid rgba(255,255,255,0.15);
   border-radius: 12px;
-  cursor: pointer;
+  border: 1px solid rgba(255,255,255,0.15);
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 
+  cursor: pointer;
+  transition: 0.22s ease;
+
   &:hover {
     background: #181818;
+    transform: scale(1.02);
   }
 `;
 
-// Danh sách dropdown music
+/* Danh sách bài hát */
 const DropdownList = styled.ul`
   position: absolute;
   top: 40px;
   width: 100%;
-  background: #101010;
-  border-radius: 10px;
-  border: 1px solid rgba(255,255,255,0.12);
   list-style: none;
-  padding: 6px 0;
   margin: 0;
-  z-index: 99;
+  padding: 7px 0;
 
-  max-height: ${({ itemCount }) => (itemCount > 3 ? "50px" : "auto")};
-  overflow-y: ${({ itemCount }) => (itemCount > 3 ? "auto" : "visible")};
+  background: #101010;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.15);
 
-  /* Scrollbar đẹp */
+  max-height: ${({ itemCount }) => (itemCount > 4 ? "90px" : "auto")};
+  overflow-y: auto;
+
+  animation: slide 0.25s ease;
+
+  @keyframes slide {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Scroll đẹp */
   &::-webkit-scrollbar {
     width: 6px;
   }
   &::-webkit-scrollbar-thumb {
-    background: #1ea6d7ff;
+    background: #1ed760;
     border-radius: 999px;
   }
 `;
 
 const DropdownItem = styled.li`
   padding: 8px 14px;
-  font-size: 9px;
-  color: #fff;
+  font-size: 10px;
+  color: white;
   cursor: pointer;
+  transition: 0.22s;
 
   &:hover {
     background: #1f1f1f;
+    padding-left: 16px;
   }
 `;
 
-
+/* --- MAIN COMPONENT --- */
 const Music = () => {
   const audioRef = useRef(null);
   const [playing, setPlaying] = useState(false);
@@ -201,66 +208,63 @@ const Music = () => {
 
   return (
     <Container id="Music">
-        <Wrapper>
-      <PlayerBox>
+      <Wrapper>
+        <PlayerBox>
 
-      {/* Dropdown Spotify */}
-      <Dropdown>
-          <DropdownHeader onClick={() => setOpen(!open)}>
-            🎵 {selectedSong.title}
-            <span>{open ? "▲" : "▼"}</span>
-          </DropdownHeader>
+          {/* Dropdown chọn bài */}
+          <Dropdown>
+            <DropdownHeader onClick={() => setOpen(!open)}>
+              🎵 {selectedSong.title}
+              <span>{open ? "▲" : "▼"}</span>
+            </DropdownHeader>
 
-          {open && (
-            <DropdownList itemCount={songs.length}>
-              {songs.map((song, i) => (
-                <DropdownItem
-                  key={i}
-                  onClick={() => {
-                    setSelectedSong(song);
-                    audioRef.current.pause();
-                    audioRef.current.load();
-                    audioRef.current.play();
-                    setPlaying(true);
-                    setOpen(false);
-                  }}
-                >
-                  🎵 {song.title}
-                </DropdownItem>
-              ))}
-            </DropdownList>
+            {open && (
+              <DropdownList itemCount={songs.length}>
+                {songs.map((song, i) => (
+                  <DropdownItem
+                    key={i}
+                    onClick={() => {
+                      setSelectedSong(song);
+                      audioRef.current.pause();
+                      audioRef.current.load();
+                      audioRef.current.play();
+                      setPlaying(true);
+                      setOpen(false);
+                    }}
+                  >
+                    🎶 {song.title}
+                  </DropdownItem>
+                ))}
+              </DropdownList>
+            )}
+          </Dropdown>
+
+          {/* Button Play */}
+          <SpotifyButton onClick={toggleMusic}>
+            {playing ? "⏸ Pause" : "▶ Play"}
+          </SpotifyButton>
+
+          {/* Wave animation */}
+          {playing && (
+            <Wave>
+              <Bar/><Bar/><Bar/>
+            </Wave>
           )}
-        </Dropdown>
 
-        {/* Nút Play / Pause Spotify */}
-        <SpotifyButton onClick={toggleMusic}>
-          {playing ? "⏸ Pause" : "▶ Play"}
-        </SpotifyButton>
+          <NowPlaying>Đang phát 🎵 {selectedSong.title}</NowPlaying>
 
-        {/* Waveform khi đang phát */}
-        {playing && (
-          <Wave>
-            <Bar />
-            <Bar />
-            <Bar />
-          </Wave>
-        )}
+          <audio ref={audioRef} preload="auto" loop>
+            <source src={selectedSong.src} type="audio/mpeg" />
+          </audio>
 
-        {/* Đang phát */}
-        <NowPlaying>Đang phát 🎵: {selectedSong.title}</NowPlaying>
-
-        {/* Audio */}
-        <audio ref={audioRef} preload="auto" loop>
-          <source src={selectedSong.src} type="audio/mpeg" />
-        </audio>
-
-      </PlayerBox>
+        </PlayerBox>
       </Wrapper>
     </Container>
   );
 };
 
 export default Music;
+
 
 
 // import { useRef, useState } from "react";
