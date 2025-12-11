@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import styled from "styled-components";
 import { songs } from "../../data/constants";
 
@@ -47,7 +47,18 @@ const PlayerBox = styled.div`
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
   }
+
+  /* ★ Auto Hide Animation ★ */
+  opacity: ${({ hidden }) => (hidden ? 0 : 1)};
+  transform: ${({ hidden }) =>
+  hidden ? "translateY(30px) scale(0.92)" : "translateY(0px) scale(1)"};
+
+  pointer-events: ${({ hidden }) => (hidden ? "none" : "auto")};
+
+  transition: all 0.35s ease;
 `;
+
+
 
 /* --- PLAY BUTTON --- */
 const SpotifyButton = styled.button`
@@ -200,6 +211,31 @@ const Music = () => {
   const [selectedSong, setSelectedSong] = useState(songs[0]);
   const [open, setOpen] = useState(false);
 
+  /* ✨ Fade state */
+  const [hidden, setHidden] = useState(false);
+
+  /* ✨ Scroll listener */
+  useEffect(() => {
+  let lastScroll = window.scrollY;
+
+  const handleScroll = () => {
+    const current = window.scrollY;
+
+    if (current > lastScroll + 10) {
+      // Scroll xuống → ẩn
+      setHidden(true);
+    } else if (current < lastScroll - 10) {
+      // Scroll lên → hiện lại
+      setHidden(false);
+    }
+
+    lastScroll = current;
+  };
+
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
   const toggleMusic = () => {
     if (playing) audioRef.current.pause();
     else audioRef.current.play();
@@ -209,7 +245,7 @@ const Music = () => {
   return (
     <Container id="Music">
       <Wrapper>
-        <PlayerBox>
+        <PlayerBox hidden={hidden}>
 
           {/* Dropdown chọn bài */}
           <Dropdown>
@@ -251,7 +287,7 @@ const Music = () => {
             </Wave>
           )}
 
-          <NowPlaying>Đang phát 🎵 {selectedSong.title}</NowPlaying>
+          <NowPlaying>Playlist🎵{selectedSong.title}</NowPlaying>
 
           <audio ref={audioRef} preload="auto" loop>
             <source src={selectedSong.src} type="audio/mpeg" />
@@ -260,6 +296,7 @@ const Music = () => {
         </PlayerBox>
       </Wrapper>
     </Container>
+    
   );
 };
 

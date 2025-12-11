@@ -46,8 +46,8 @@ function App() {
         <Body>
           <StartCanvas />
           <div>
-            {<Music/>}
             <Hero />
+            {<Music/>}
             <Wrapper>
               <Skills />
               <Experience />

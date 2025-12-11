@@ -8,7 +8,7 @@ export const Bio = {
   ],
 
   description:
-    "Tôi học ngành IT và cũng như bao người khác từ lúc mới tốt nghiệp, chập chững bước chân vào thị trường công việc cũng nhiều bỡ ngỡ và đã trải qua không ít khó khăn, thử thách, thậm chí có những lúc muốn bỏ cuộc. Nhưng chính những trải nghiệm đó giúp tôi trưởng thành hơn, kiên trì hơn và tìm lại được động lực cho mình. Đến hiện tại, mọi thứ đã ổn định hơn và tôi tự tin tiếp tục bước đi trên con đường đã chọn.",
+    "Tôi học ngành IT và cũng như bao người khác từ lúc mới tốt nghiệp, chập chững bước chân vào thị trường công việc cũng nhiều bỡ ngỡ và đã trải qua không ít khó khăn, thử thách, thậm chí có những lúc muốn bỏ cuộc. Nhưng chính những trải nghiệm đó giúp tôi trưởng thành hơn, kiên trì hơn và tìm lại được động lực cho mình. Đến hiện tại, mọi thứ đã ổn định hơn và tôi tự tin tiếp tục bước đi trên con đường đã chọn mặc dù phía trước còn nhiều thử thách và khó khăn.",
   github: "https://github.com/Cuongdo12345",
   resume:
     "https://drive.google.com/file/d/1F-pLnwdhBdd9lmpvdEt18Gm1fb8RDL9h/view?usp=sharing",
@@ -356,17 +356,18 @@ export const items = [
 // Danh sách nhạc
 //============================
 export const songs = [
-  // { title: "Giá Như Cô Ấy Chưa Xuất Hiện", src: "/music/Giá Như Cô Ấy Chưa Xuất Hiện.mp3" },
+  { title: "Hồng Kông", src: "https://res.cloudinary.com/datzv1s1j/video/upload/HONGKONG_o0ebfd.mp3" },
   { title: "Mashup", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Mashup_iplyyk.mp3" },
   { title: "Yêu Kiều", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Yeu_kieu_x6dj2c.mp3" },
+  { title: "Da Key", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Da_Key_dysnak.mp3" },
   { title: "Deserve Better", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Deserve_Better_zchqxy.mp3" },
   { title: "Anh Thương Mà", src: "https://res.cloudinary.com/datzv1s1j/video/upload/anh_thuong_ma_zl8dbz.mp3" },
+  { title: "Hà Nội", src: "https://res.cloudinary.com/datzv1s1j/video/upload/H%C3%A0_N%E1%BB%99i_kxzvrl.mp3" },
   { title: "Parachute", src: "https://res.cloudinary.com/datzv1s1j/video/upload/PARACHUTE_gbqrsd.mp3" },
   { title: "Ngày Này Năm Ấy", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Ng%C3%A0y_N%C3%A0y_N%C4%83m_%E1%BA%A4y_gf3bmp.mp3" },
   { title: "Em Không Khóc", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Em_Kh%C3%B4ng_Kh%C3%B3c_jsbsj3.mp3" },
   { title: "Không buông", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Kh%C3%B4ng_Bu%C3%B4ng_ptipd5.mp3" },
   { title: "Có Đôi Điều", src: "https://res.cloudinary.com/datzv1s1j/video/upload/C%C3%B3_%C4%90%C3%B4i_%C4%90i%E1%BB%81u_o4k9qs.mp3" },
-  { title: "Da Key", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Da_Key_dysnak.mp3" },
   { title: "Thuyền Không Bến Đợi", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Thuy%E1%BB%81n_kh%C3%B4ng_b%E1%BA%BFn_%C4%91%E1%BB%A3i_b16kn5.mp3" },
   
 ];
@@ -443,66 +444,6 @@ export const songs = [
 //     img: 'https://lh4.googleusercontent.com/d/1hoqdRvI5gDu0BMJtfkxifeq00URXHVA0',
 //     title: 'Hats',
 //     rows: 2,
-//     cols: 2,
-//   },
-//   {
-//     img: 'https://lh4.googleusercontent.com/d/18-LAEiJ5l0AKC50fkvr5VlbDD_kXDXCd',
-//     title: 'Honey',
-//     author: '@arwinneil',
-//     rows: 2,
-//     cols: 2,
-//   },
-//   {
-//     img: 'https://lh4.googleusercontent.com/d/1nnzZfX5q5FFaeUJPSfnBDBpX67hhiHHg',
-//     title: 'Basketball',
-//     rows: 2,
-//     cols: 2,
-//   },
-//   {
-//     img: 'https://lh4.googleusercontent.com/d/14cirZ-PZepvNcYXCkGoJvFljgUUjFeKa',
-//     title: 'Fern',
-//     rows: 2,
-//     cols: 2,
-//   },
-//   {
-//     img: 'https://lh4.googleusercontent.com/d/1wdbTRP83fegoXY3so-o1iLBw3uUEdU07',
-//     title: 'Mushrooms',
-//     rows: 2,
-//     cols: 2,
-//   },
-//   {
-//     img: 'https://lh4.googleusercontent.com/d/1VdpueCk6bTy-YsoFUjuTSBSq6bHcVGtJ',
-//     title: 'Tomato basil',
-//     rows: 2,
-//     cols: 2,
-//   },
-//   {
-//     img: 'https://lh4.googleusercontent.com/d/1hDyVNQv8s84mlaK0oaHdMwfSADxSLNaJ',
-//     title: 'Sea star',
-//     rows: 2,
-//     cols: 2,
-//   },
-//   {
-//     img: 'https://lh4.googleusercontent.com/d/1kCGlbkOTtvDeEvrn6wc1foBjXKrdd9Q4',
-//     title: 'Bike',
-//     rows: 2,
-//     cols: 2,
-//   },
-//   {
-//     img: 'https://lh4.googleusercontent.com/d/1FawL7Y6h6yJnc-NLCcrsZS3uah7B-UCR',
-//     title: 'Bike',
-//     rows: 2,
-//     cols: 2,
-//   },
-//   {
-//     img: 'https://lh4.googleusercontent.com/d/1bM7tASwqRqbboyyeh6nN6QwFmQR2iYJo',
-//     title: 'Bike',
-//     rows: 2,
-//     cols: 2,
-//   },
-//   {
-//     img: 'https://lh4.googleusercontent.com/d/1fbdgBxJ_G3y4Fx4LfeRr6H4fQbs_ikHy',
-//     title: 'Bike',
 //     cols: 2,
 //   },
 // ];
