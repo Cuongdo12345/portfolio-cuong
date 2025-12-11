@@ -1,13 +1,14 @@
-//import Img from "../images/CuongImage.jpg";
 
+//Thông tin cá nhân
+//===========================
 export const Bio = {
   name: "Đỗ Mạnh Cường",
   roles: [
-    "Hiện tại là Chuyên viên CNTT","Làm việc tại bệnh viện Y học cổ truyền và Phục hồi chức năng Khánh Hòa",
+    "Hiện tại là Chuyên viên CNTT","Làm việc tại bệnh viện Y học cổ truyền và Phục hồi chức năng",
   ],
 
   description:
-    "Tôi học ngành CNTT và cũng như bao người khác từ lúc mới tốt nghiệp, chập chững bước chân vào thị trường công việc cũng nhiều bỡ ngỡ và đã trải qua không ít khó khăn, thử thách, thậm chí có những lúc muốn bỏ cuộc. Nhưng chính những trải nghiệm đó giúp tôi trưởng thành hơn, kiên trì hơn và tìm lại được động lực cho mình. Đến hiện tại, mọi thứ đã ổn định hơn và tôi tự tin tiếp tục bước đi trên con đường đã chọn.",
+    "Tôi học ngành IT và cũng như bao người khác từ lúc mới tốt nghiệp, chập chững bước chân vào thị trường công việc cũng nhiều bỡ ngỡ và đã trải qua không ít khó khăn, thử thách, thậm chí có những lúc muốn bỏ cuộc. Nhưng chính những trải nghiệm đó giúp tôi trưởng thành hơn, kiên trì hơn và tìm lại được động lực cho mình. Đến hiện tại, mọi thứ đã ổn định hơn và tôi tự tin tiếp tục bước đi trên con đường đã chọn.",
   github: "https://github.com/Cuongdo12345",
   resume:
     "https://drive.google.com/file/d/1F-pLnwdhBdd9lmpvdEt18Gm1fb8RDL9h/view?usp=sharing",
@@ -17,6 +18,9 @@ export const Bio = {
   facebook: "https://www.facebook.com/domanhcuong123",
 };
 
+
+//Danh sách kỹ năng
+//===========================
 export const skills = [
   {
     title: "Frontend",
@@ -107,6 +111,9 @@ export const skills = [
   },
 ];
 
+
+//Danh sách kinh nghiệm làm việc
+//===========================
 export const experiences = [
   {
     id: 0,
@@ -187,36 +194,9 @@ export const experiences = [
   },
 ];
 
-
+//Danh sách dự án
+//===========================
 export const projects = [
-  
-  // {
-  //   id: 0,
-  //   title: "Home-Service",
-  //   date: "2023",
-  //   description:
-  //     "Một App phần mềm được gọi là giúp việc. App này giúp cho người làm và người cần thuê giúp việc dễ dàng hơn trong việc tìm kiếm người phù hợp cho gia đình mình và từ đó giúp cho người tìm việc tiếp cận được công việc nhanh hơn ",
-  //   image:
-  //     "https://lh4.googleusercontent.com/d/1TeZGtvfq_ujZYZQ-yWBMGyLnPp72d2Fi",
-  //   tags: ["MongoDb", "Node Js", "Express Js","Flutter","Typescript"],
-  //   category: "web app",
-  //   github: "https://github.com/Manhcuong12345/HomeService",
-  //   // webapp: "https://podstream.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Mạnh Cường",
-  //       img: "https://lh4.googleusercontent.com/d/1PzAvu8uy5021XYPnmOqcU3pKM4Y-I0Kb",
-  //       // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       // github: "https://github.com/rishavchanda/",
-  //     },
-      // {
-      //   name: "Upasana Chaudhuri",
-      //   img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-      //   linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-      //   github: "https://github.com/upasana0710",
-      // },
-  //   ],
-  // },
   {
     id: 1,
     title: "Quản lý sức khỏe quân nhân",
@@ -347,9 +327,10 @@ export const projects = [
 ];
 
 
-
+//Danh sách hình ảnh slider
+//===========================
 export const items = [
-{ img: "https://lh4.googleusercontent.com/d/1I2njLl8WGyAcjeJXmqSUHc3225VzBSma" },
+{ img: "https://lh4.googleusercontent.com/d/1I2njLl8WGyAcjeJXmqSUHc3225VzBSma"},
 { img: "https://lh4.googleusercontent.com/d/1ERaMZSGcC9vIwbgJRufYMmwjYROjCj7A"},
 { img: "https://lh4.googleusercontent.com/d/1T42oGPXj5kD3ouP-FrfCTA6_zqc3urjI" },
 { img: "https://lh4.googleusercontent.com/d/1RcBKXcwV2EYDAxUdQJOpwTjReJjzXvu-" },
@@ -373,14 +354,26 @@ export const items = [
 
 
 // Danh sách nhạc
-// ============================
+//============================
 export const songs = [
   // { title: "Giá Như Cô Ấy Chưa Xuất Hiện", src: "/music/Giá Như Cô Ấy Chưa Xuất Hiện.mp3" },
-  { title: "Em Không Khóc", src: "/music/Em Không Khóc.mp3" },
-  { title: "Không buông", src: "/music/Không buông.mp3" },
-  { title: "Có Đôi Điều", src: "/music/Có Đôi Điều.mp3" },
-  { title: "Ngày Này Năm Ấy", src: "/music/Ngày Này Năm Ấy.mp3" },
+  { title: "Mashup", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Mashup_iplyyk.mp3" },
+  { title: "Yêu Kiều", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Yeu_kieu_x6dj2c.mp3" },
+  { title: "Deserve Better", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Deserve_Better_zchqxy.mp3" },
+  { title: "Anh Thương Mà", src: "https://res.cloudinary.com/datzv1s1j/video/upload/anh_thuong_ma_zl8dbz.mp3" },
+  { title: "Parachute", src: "https://res.cloudinary.com/datzv1s1j/video/upload/PARACHUTE_gbqrsd.mp3" },
+  { title: "Ngày Này Năm Ấy", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Ng%C3%A0y_N%C3%A0y_N%C4%83m_%E1%BA%A4y_gf3bmp.mp3" },
+  { title: "Em Không Khóc", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Em_Kh%C3%B4ng_Kh%C3%B3c_jsbsj3.mp3" },
+  { title: "Không buông", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Kh%C3%B4ng_Bu%C3%B4ng_ptipd5.mp3" },
+  { title: "Có Đôi Điều", src: "https://res.cloudinary.com/datzv1s1j/video/upload/C%C3%B3_%C4%90%C3%B4i_%C4%90i%E1%BB%81u_o4k9qs.mp3" },
+  { title: "Da Key", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Da_Key_dysnak.mp3" },
+  { title: "Thuyền Không Bến Đợi", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Thuy%E1%BB%81n_kh%C3%B4ng_b%E1%BA%BFn_%C4%91%E1%BB%A3i_b16kn5.mp3" },
+  
 ];
+
+
+// Danh sách video
+//============================
 // export const videos = [
 // {
 //   id: 1,
