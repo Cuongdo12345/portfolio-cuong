@@ -55,6 +55,7 @@ function App() {
             <Projects />
             <Wrapper>
                {<SliderImg/>}
+               {/* {<SliderVideo/>} */}
             </Wrapper>
             <Footer />
           </div>
