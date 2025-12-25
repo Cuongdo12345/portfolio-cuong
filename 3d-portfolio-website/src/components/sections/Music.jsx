@@ -287,7 +287,7 @@ const Music = () => {
             </Wave>
           )}
 
-          <NowPlaying>Playlist🎵{selectedSong.title}</NowPlaying>
+          <NowPlaying>Playlist🎵yêu thích {selectedSong.title}</NowPlaying>
 
           <audio ref={audioRef} preload="auto" loop>
             <source src={selectedSong.src} type="audio/mpeg" />

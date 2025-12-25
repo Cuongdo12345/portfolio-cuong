@@ -13,7 +13,7 @@ import Music from "./components/sections/Music";
 // import Education from "./components/sections/Education";
 // import Contact from "./components/sections/Contact";
 // import ListImage from "./components/sections/ListImage";
-// import SliderVideo from "./components/sections/SliderVideo";
+import SliderVideo from "./components/sections/SliderVideo";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -55,7 +55,7 @@ function App() {
             <Projects />
             <Wrapper>
                {<SliderImg/>}
-               {/* {<SliderVideo/>} */}
+               {<SliderVideo/>}
             </Wrapper>
             <Footer />
           </div>

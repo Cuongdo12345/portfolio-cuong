@@ -8,7 +8,7 @@ export const Bio = {
   ],
 
   description:
-    "Tôi học ngành IT và cũng như bao người khác từ lúc mới tốt nghiệp, chập chững bước chân vào thị trường công việc cũng nhiều bỡ ngỡ và đã trải qua không ít khó khăn, thử thách, thậm chí có những lúc muốn bỏ cuộc. Nhưng chính những trải nghiệm đó giúp tôi trưởng thành hơn, kiên trì hơn và tìm lại được động lực cho mình. Đến hiện tại, mọi thứ đã ổn định hơn và tôi tự tin tiếp tục bước đi trên con đường đã chọn mặc dù phía trước còn nhiều thử thách và khó khăn.",
+    "Tôi học ngành IT và cũng như bao người khác từ lúc mới tốt nghiệp, chập chững bước chân vào thị trường công việc cũng nhiều bỡ ngỡ và đã trải qua không ít khó khăn, thử thách, thậm chí có những lúc muốn bỏ cuộc. Nhưng chính những trải nghiệm đó giúp tôi trưởng thành hơn, kiên trì hơn và tìm lại được động lực cho mình. Đến hiện tại, mọi thứ đã ổn định hơn và tôi tự tin tiếp tục bước đi trên con đường đã chọn mặc dù phía trước còn nhiều thử thách.",
   github: "https://github.com/Cuongdo12345",
   resume:
     "https://drive.google.com/file/d/1F-pLnwdhBdd9lmpvdEt18Gm1fb8RDL9h/view?usp=sharing",
@@ -44,11 +44,6 @@ export const skills = [
         image:
           "https://lh4.googleusercontent.com/d/1KgA22gjD9CibdxqhnFm55NsO6GhfQ4aN",
       },
-      {
-        name: "Bootstrap",
-        image:
-          "https://lh4.googleusercontent.com/d/1bX_acBCEvx66dItZBZjl0bm8qqD283gI",
-      },
     ],
   },
   {
@@ -61,11 +56,6 @@ export const skills = [
       {
         name: "Express Js",
         image:"https://lh4.googleusercontent.com/d/1JSEpgTFI5Ch0uenN95yL2LWoNLR7dTzy",
-      },
-      {
-        name: "SQL Server",
-        image:
-          "https://lh4.googleusercontent.com/d/1LqrqcxbeIDHUrINXrV5Xo64F8GTWAmXi",
       },
       {
         name: "MongoDB",
@@ -86,11 +76,6 @@ export const skills = [
         name: "GitHub",
         image:
            "https://lh4.googleusercontent.com/d/1dfIdiAWz73R-HqKez8XaIcKgoOM7E0Lt",
-      },
-      {
-        name: "Netlify",
-        image:
-           "https://lh4.googleusercontent.com/d/1zVLtX8YE8-3Pf_0PxQaza98T-9oLc5Dv",
       },
       {
         name: "VS Code",
@@ -123,13 +108,13 @@ export const experiences = [
     company: "Công ty phần mềm Joytech",
     date: "Tháng 8/2022",
     desc: "Tôi bắt đầu đi thử việc tại công ty Joytech. Lần đầu tiên tôi tiếp xúc với môi trường làm việc thực tế đúng chuyên ngành, Trong quá trình thực tập, tôi được tham gia vào các nhiệm vụ nhỏ trong dự án, học cách làm việc theo quy trình và phối hợp với đội ngũ kỹ thuật",
-    skills: [
-      "NodeJs",
-      "MongoDB",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
+    // skills: [
+    //   "NodeJs",
+    //   "MongoDB",
+    //   "HTML",
+    //   "CSS",
+    //   "JavaScript,
+    // ],
     //doc: "https://drive.google.com/file/d/1J51yBjeBLiaHosQU6W2DZAeJMI2tfXjn/view?usp=sharing",
   },
   {
@@ -141,12 +126,12 @@ export const experiences = [
     company: "Công viên phần mềm quân đội ASP",
     date: "Tháng 7/2023 - 2024",
     desc: "Sau đó, tôi tiếp tục thử sức tại Công ty Phần mềm Quân đội. Môi trường ở đây chuyên nghiệp và kỷ luật hơn, giúp tôi rèn luyện tác phong làm việc nghiêm túc và nâng cao kỹ năng chuyên môn. Những trải nghiệm này cho tôi cái nhìn rõ hơn về con đường IT mà mình muốn theo đuổi.",
-    skills: [
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      "ASP.Net Core",
-    ],
+    // skills: [
+    //   "JavaScript",
+    //   "TypeScript",
+    //   "Node Js",
+    //   "ASP.Net Core",
+    // ],
    //doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
   {
@@ -157,10 +142,10 @@ export const experiences = [
     company: "Công ty TNHH Alibu Resort",
     date: "Tháng 7/2024 - 6/2025",
     desc: "Tuy nhiên trong khoảng thời gian làm, công việc chưa thật sự phù hợp khiến mình cảm thấy ngột ngạt, nên tôi quyết định chuyển hướng sang một công ty resort du lịch để tìm kiếm trải nghiệm mới và thử thách bản thân ở lĩnh vực khác.",
-    skills: [
-      "Hardware Troubleshooting",
-      "Internet Connectivity",
-    ],
+    // skills: [
+    //   "Hardware Troubleshooting",
+    //   "Internet Connectivity",
+    // ],
     //doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
   },
   {
@@ -171,11 +156,11 @@ export const experiences = [
     company: "Bệnh viện Đa khoa Sài Gòn - Nha Trang",
     date: "Tháng 8/2025 - 10/2025",
     desc: "Sau khoảng thời gian làm ở Resort du lịch tôi muốn tìm kiếm sự ổn định hơn về sự nghiệp, nên tôi lại tiếp tục sang bệnh viện làm IT thử việc trong 2 tháng, nơi giúp tôi hiểu hơn về hệ thống công nghệ trong môi trường đặc thù và ổn định hơn.",
-    skills: [
-      "Hardware Troubleshooting",
-      "Internet Connectivity",
-      "System Management",
-    ],
+    // skills: [
+    //   "Hardware Troubleshooting",
+    //   "Internet Connectivity",
+    //   "System Management",
+    // ],
     //doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
   },
   {
@@ -186,11 +171,11 @@ export const experiences = [
     company: "Bệnh viện Y học Cổ truyền Và Phục hồi Chức năng Khánh Hòa",
     date: "Tháng 11/2025 - Hiện tại",
     desc: "Sau khi kết thúc 2 tháng thử việc, tôi phỏng vấn và bắt đầu làm tại Bệnh viện Y học Cổ truyền Khánh Hòa. Môi trường nơi đây ổn định và phù hợp hơn với định hướng của tôi. Tôi hy vọng đây sẽ là nơi mình có thể gắn bó lâu dài và xây dựng một chặng đường sự nghiệp vững chắc cho bản thân.",
-     skills: [
-      "Hardware Troubleshooting",
-      "Internet Connectivity",
-      "System Management",
-    ],
+    //  skills: [
+    //   "Hardware Troubleshooting",
+    //   "Internet Connectivity",
+    //   "System Management",
+    // ],
   },
 ];
 
@@ -274,56 +259,6 @@ export const projects = [
       // },
     ],
   },
-  // {
-  //   id: 4,
-  //   title: "Smart-Meeting",
-  //   date: "2024",
-  //   description:
-  //     "Ứng dụng App dùng để họp trực tuyến một nhanh chóng và tiện lợi. Ứng dụng này giúp người dùng có thể tạo phòng họp, mời người khác tham gia và chia sẻ",
-  //   image:
-  //     "https://lh4.googleusercontent.com/d/1hVlnT2E3jqUzZ5TFFonCYdc2jU2OouMg",
-  //   tags: ["Node JS", "Firebase", "MongoDB", "Express JS"],
-  //   category: "web app",
-  //   github: "https://github.com/Manhcuong12345/Project_Smart-meeting",
-  //   //webapp: "https://whatsapp-clone-rishav.web.app",
-  //   member: [
-  //     {
-  //       name: "Mạnh Cường",
-  //       img: "https://lh3.googleusercontent.com/d/1PzAvu8uy5021XYPnmOqcU3pKM4Y-I0Kb",
-  //     },
-      // {
-      //   name: "Upasana Chaudhuri",
-      //   img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-      //   linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-      //   github: "https://github.com/upasana0710",
-      // },
-  //   ],
-  // },
-  // {
-  //   id: 5,
-  //   title: "Portfolio",
-  //   date: "2025",
-  //   description:
-  //     "Đây là dự án website portfolio cá nhân của tôi, nơi tôi tổng hợp và giới thiệu về bản thân, kỹ năng, kinh nghiệm làm việc và các dự án đã thực hiện.",
-  //   image:
-  //     "https://lh4.googleusercontent.com/d/17z5hxbrqMVrJVXRWNm8qZyk2Z9IYVUVx",
-  //   tags: ["React Js", "Node JS", "MongoDB", "Express JS"],
-  //   category: "web app",
-  //   github: "https://github.com/Cuongdo12345/portfolio-cuong.git",
-  //   //webapp: "https://rishav-react-todo.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Mạnh Cường",
-  //       img: "https://lh3.googleusercontent.com/d/1PzAvu8uy5021XYPnmOqcU3pKM4Y-I0Kb",
-  //     },
-      // {
-      //   name: "Upasana Chaudhuri",
-      //   img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-      //   linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-      //   github: "https://github.com/upasana0710",
-      // },
-    // ],
-  // },
 ];
 
 
@@ -375,45 +310,46 @@ export const songs = [
 
 // Danh sách video
 //============================
-// export const videos = [
-// {
-//   id: 1,
-//   src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-10_tlh0hn.mp4"
-// },
-// { id: 2,src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-10_tlh0hn.mp4"},
-// { id: 3, src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-10_tlh0hn.mp4"}
-//   ];
-
-export const education = [
-  {
-    id: 0,
-    //img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    img:"https://lh4.googleusercontent.com/d/18BkquGIuirW5QrgH5cCp76C3kBlC97cR",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.41 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
-  },
-  {
-    id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
-  },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
-  },
+export const videos = [
+{ id: 1, src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-3_lh6ya5.mp4"},
+{ id: 2, src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-7_sicwjl.mp4"},
+{ id: 3, src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-1_y9axgh.mp4"},
+{ id: 4, src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-2_rpao6d.mp4"},
+{ id: 5,src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-4_cbjtvy.mp4"},
+{ id: 6, src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-6_n4pwqr.mp4"},
+{ id: 7, src: "https://res.cloudinary.com/datzv1s1j/video/upload/lyrics-5_q1c9l3.mp4"},
 ];
+
+// export const education = [
+//   {
+//     id: 0,
+//     //img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+//     img:"https://lh4.googleusercontent.com/d/18BkquGIuirW5QrgH5cCp76C3kBlC97cR",
+//     school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
+//     date: "Oct 2021 - Sep 2025",
+//     grade: "8.41 CGPA",
+//     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+//     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+//   },
+//   {
+//     id: 1,
+//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+//     school: "Methodist School, Dankuni",
+//     date: "Apr 2019 - Apr 2025",
+//     grade: "88.2%",
+//     desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
+//     degree: "ISC(XII), Science with Computer",
+//   },
+//   {
+//     id: 2,
+//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+//     school: "Methodist School, Dankuni",
+//     date: "Apr 2017 - Apr 2019",
+//     grade: "92.3%",
+//     desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
+//     degree: "ICSC(X), Science with Computer",
+//   },
+// ];
 
 // export const itemData = [
 //  {
