@@ -291,6 +291,7 @@ export const items = [
 // Danh sách nhạc
 //============================
 export const songs = [
+  { title: "Billie_Jean", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Billie_Jean_y72kx9.mp3" },
   { title: "Hồng Kông", src: "https://res.cloudinary.com/datzv1s1j/video/upload/HONGKONG_o0ebfd.mp3" },
   { title: "Mashup", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Mashup_iplyyk.mp3" },
   { title: "Yêu Kiều", src: "https://res.cloudinary.com/datzv1s1j/video/upload/Yeu_kieu_x6dj2c.mp3" },

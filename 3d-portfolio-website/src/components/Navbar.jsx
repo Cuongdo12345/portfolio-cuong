@@ -146,7 +146,7 @@ const Navbar = () => {
           <NavLink href="#Skills">Kỹ năng</NavLink>
           <NavLink href="#Experience">Kinh nghiệm</NavLink>
           <NavLink href="#Projects">Dự án</NavLink>
-          <NavLink href="#SliderVideo">Video</NavLink>
+          {/* <NavLink href="#SliderVideo">Video</NavLink> */}
           <NavLink href="#SliderImg">Chill</NavLink>
         </NavItems>
 
@@ -164,9 +164,9 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
               Dự án
             </NavLink>
-            <NavLink onClick={() => setIsOpen(!isOpen)} href="#SliderVideo">
+            {/* <NavLink onClick={() => setIsOpen(!isOpen)} href="#SliderVideo">
               Video
-            </NavLink>
+            </NavLink> */}
              {/* <NavLink onClick={() => setIsOpen(!isOpen)} href="#ListImage">
               Ảnh
             </NavLink> */}
